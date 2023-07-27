@@ -1,0 +1,23 @@
+.form-box {
+  width: 88%;
+  margin: 0 auto;
+  box-shadow: 0 3rem 6rem rgba(0, 0, 0, 0.5);
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 3px;
+  padding: 3rem;
+  font-size: 1.4rem;
+  transform: skewX(-5deg);
+}
+
+#name:hover,
+#date:hover,
+#time:hover {
+  transform: skewX(10deg);
+}
+
+.form_buttons {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 1rem;
+  margin-top: 2rem;
+}
