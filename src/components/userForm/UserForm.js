@@ -21,7 +21,6 @@ export const UserForm = () => {
 
   const onSubmit = e => {
     e.preventDefault();
-    console.log(userInputs);
   };
 
   return (

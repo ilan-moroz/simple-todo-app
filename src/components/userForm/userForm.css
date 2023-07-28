@@ -9,7 +9,7 @@
   transform: skewX(-5deg);
 }
 
-#name:hover,
+#task:hover,
 #date:hover,
 #time:hover {
   transform: skewX(10deg);
