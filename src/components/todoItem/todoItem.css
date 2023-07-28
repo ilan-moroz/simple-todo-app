@@ -1,12 +1,12 @@
 .card {
-  perspective: 150rem;
+  perspective: 200rem;
   position: relative;
-  height: 20rem;
+  height: 15rem;
   width: 100%;
   margin-top: 1.5rem;
 }
 .card__side {
-  height: 20rem;
+  height: 15rem;
   transition: all 0.8s ease;
   position: absolute;
   top: 0;
@@ -24,7 +24,7 @@
   transform: rotateY(180deg);
 }
 .card__side--back-1 {
-  background-image: linear-gradient(to right bottom, #ffb900, #ff7730);
+  background-image: linear-gradient(to right bottom, #ffb900, red);
 }
 
 .card:hover .card__side--front {
