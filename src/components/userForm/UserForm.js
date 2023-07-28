@@ -9,7 +9,7 @@ const initialState = {
   time: "",
 };
 
-export const UserForm = () => {
+export const UserForm = props => {
   const [userInputs, setUserInputs] = React.useState(initialState);
 
   const handleChange = (key, value) => {
@@ -21,6 +21,7 @@ export const UserForm = () => {
 
   const onSubmit = e => {
     e.preventDefault();
+    props.addTodo(userInputs);
   };
 
   return (
